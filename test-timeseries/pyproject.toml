@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-timeseries"
+version = "0.1.0"
+description = ""
+authors = ["ayekhantkhantpo <ayekhantkhantpo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_timeseries"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+influxdb = "^5.3.1"
+influxdb-client = "^1.36.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
